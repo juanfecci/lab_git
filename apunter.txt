@@ -1,0 +1,8 @@
+Como funciona:
+
+Uno puede ahcer una nueva rama para poder hacer modificaciones nuevas que no se incluyen a un master. Cada nodo es un commit.
+
+Workflows:
+
+La rama master es la defecto. 
+Feature: Se hace un branch por caracteristica.
