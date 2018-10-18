@@ -6,3 +6,34 @@ Workflows:
 
 La rama master es la defecto. 
 Feature: Se hace un branch por caracteristica.
+Gitflow: Se agrega una extra de desarrollo y el master se usa solo para releases.
+
+git add
+git commit -m
+git pull
+git push
+
+git pull origin master para empezar
+
+Se pueden hacer varios commit.
+El head en los log indica en que fase se encuenrta cada log.
+
+para ingonre
+.gitignore:
+Se agrega carpetas/archivos que no se deben agregar.
+
+Se debe añadir el gitingore igual que siempre.
+
+
+Para crear rama: git branch nombre_rama
+con git branch se ven las ramas existentes (el del * es el actual)
+Con checkout se cambia de rama.
+
+para pushear a la rama git push -u origin nombre_rama
+
+para merge ciertas ramas, primero se cambia a la tora rama y se aplica el merge.
+
+git merge rama_creada
+
+git branch -d rama _creada
+git push origin --delete rama_creada
